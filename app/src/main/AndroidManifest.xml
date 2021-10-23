@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pinterfake_timkiem" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pinterfake_TimKiem" >
+        <activity
+            android:name=".Share_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Baocao_Nhanxet2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Baocao_Nhanxet_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Tai_Anh_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Bao_Cao_Spam_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Bao_Cao_GhimActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cmt_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Tuy_chon_khac_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".AnhActivity"
+            android:exported="true" />
+        <activity
+            android:name=".YTuongActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
